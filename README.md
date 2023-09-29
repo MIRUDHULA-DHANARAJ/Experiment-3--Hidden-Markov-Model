@@ -3,7 +3,7 @@
 ## Aim:
  Construct a Python code to find the sequence of hidden states by the known sequence of obsevances using Hidden Markov Model. Consider two hidden states Sunny and Rainy with observable states,happy and sad. 
 ## Algorithm:
-```
+
 ## Step 1:
 Define the transition matrix, which specifies the probability of transitioning from one hidden state to another.</br>
 ## Step 2:
@@ -22,7 +22,7 @@ Loop through the rest of the observed sequence and calculate the rest of the alp
 Calculate the probability of the observed sequence by summing the last row of the alpha matrix.</br>
 ## Step 9:
 Find the most likely sequence of hidden states by selecting the hidden state with the highest probability at each time step based on the alpha matrix.</br>
-```
+
 ##  Program:
 ## Import the necessary packages
 ```
